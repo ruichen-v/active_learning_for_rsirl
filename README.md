@@ -1,6 +1,6 @@
 # active_learning_for_rsirl
-## Paper code for [Active Learning for Risk-Sensitive Inverse Reinforcement Learning](https://arxiv.org/abs/1909.07843).
-## Click the image below (the single-step example in paper) to view the complete convergence process.
+### Paper code for [Active Learning for Risk-Sensitive Inverse Reinforcement Learning](https://arxiv.org/abs/1909.07843).
+### Click the image below (also shown in paper) to view the complete convergence process.
 [![Demo of single-step RSIRL convergence with active learning.](Docs/img/active.png 'Link to demo video')](https://www.youtube.com/watch?v=QPQkQfWSbDY)
 
 # Table of contents
@@ -25,3 +25,6 @@ File | Content
 1. Navigate to `SingleStepKnownCost/`
 2. Add `Data/`, `Demo/`, `Testing/` to path
 3. Run learning / testing code. Change flags to toggle image saving, verbose plots, etc.
+
+# Contact
+[Rui Chen](https://github.com/ruichen-v)
