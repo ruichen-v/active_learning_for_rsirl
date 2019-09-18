@@ -4,16 +4,16 @@
 [![Demo of single-step RSIRL convergence with active learning.](Docs/img/active.png 'Link to demo video')](https://www.youtube.com/watch?v=QPQkQfWSbDY)
 
 # Table of contents
-File | Content
---- | ---
-`Data/exp_*/exp_setup.mat` | Decision-making dynamics, expert risk envelope
-`Data/exp_*/softmax_*` | Learning results and testing error for active RS-IRL
-`Data/exp_*/std_*` | Learning results and testing error for original RS-IRL
-`Data/exp_*/testing` | Expert demonstrations for testing
-`Demo/` | Code for generating convergence comparison
-`Testing/` | Batch running & testing code
-`single_step_*.m` | Original / Active RS-IRL
-`new_exp.m` | Experiment generator
+| File | Content |
+| --- | --- |
+| `Data/exp_*/exp_setup.mat` | Decision-making dynamics, expert risk envelope |
+| `Data/exp_*/softmax_*` | Learning results and testing error for active RS-IRL |
+| `Data/exp_*/std_*` | Learning results and testing error for original RS-IRL |
+| `Data/exp_*/testing` | Expert demonstrations for testing |
+| `Demo/` | Code for generating convergence comparison |
+| `Testing/` | Batch running & testing code |
+| `single_step_*.m` | Original / Active RS-IRL |
+| `new_exp.m` | Experiment generator |
 
 # Dependencies
 * Matlab
