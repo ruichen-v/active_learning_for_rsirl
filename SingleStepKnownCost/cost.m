@@ -1,3 +1,8 @@
+% Copyright (c) 2019 Rui Chen
+%
+% This work is licensed under the terms of the MIT license.
+% For a copy, see <https://opensource.org/licenses/MIT>.
+
 function ret = cost(x, u, fparam, Cparam, L)
 % cost vector g
 % global par;

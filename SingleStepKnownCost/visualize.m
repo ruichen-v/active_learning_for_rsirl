@@ -1,3 +1,8 @@
+% Copyright (c) 2019 Rui Chen
+%
+% This work is licensed under the terms of the MIT license.
+% For a copy, see <https://opensource.org/licenses/MIT>.
+
 function visualize(V, ax, t, g_star, tau_prime, refined)
     if ~exist('g_star', 'var') || ~exist('tau_prime', 'var') || ~exist('refined', 'var')
         visualize_gt(V, ax);

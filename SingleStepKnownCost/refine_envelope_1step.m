@@ -1,3 +1,8 @@
+% Copyright (c) 2019 Rui Chen
+%
+% This work is licensed under the terms of the MIT license.
+% For a copy, see <https://opensource.org/licenses/MIT>.
+
 function [P_V_next, tau_prime, refined, msg] = refine_envelope_1step(...
     g_star, dg_du_star, P_V_d, J_stat, tau_star)
 global par;

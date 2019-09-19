@@ -1,3 +1,8 @@
+% Copyright (c) 2019 Rui Chen
+%
+% This work is licensed under the terms of the MIT license.
+% For a copy, see <https://opensource.org/licenses/MIT>.
+
 function [sample_prob, ret_j] = active_sample_dist(x_t, u_t, x_list, u_list, v_list,...
                                     refine_steps, P_V, ax)
 % Select disturbance j such that the projection of surface normal of new

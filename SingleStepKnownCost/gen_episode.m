@@ -1,3 +1,8 @@
+% Copyright (c) 2019 Rui Chen
+%
+% This work is licensed under the terms of the MIT license.
+% For a copy, see <https://opensource.org/licenses/MIT>.
+
 function [xstar_list, ustar_list, taustar_list, vstar_list, w_list] = gen_episode(x_init, steps)
 % Generate expert demonstration
 
